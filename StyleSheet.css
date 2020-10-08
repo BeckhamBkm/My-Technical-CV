@@ -92,6 +92,30 @@ header ul li a
     
 }
 
+.projects
+{
+    background:#111;
+}
+
+.projects .content
+{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+.projects .content .serviceBx
+{
+    padding:40px 50px;
+    background:#222;
+    color:#fff;
+    max-width340px;
+    margin:20px;
+    text-align:center;
+    transition: 0.5s;
+}
+
 .skills
 {
     background:#111;
@@ -129,7 +153,7 @@ header ul li a
 
 .skill
 {
-    background:#262626;
+    background:#0fffb7;
     padding:4px;
     box-sizing:border-box;
     border:1px solid #0fffb7;
