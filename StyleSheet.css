@@ -1,0 +1,231 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+section
+{
+    padding: 100px;
+}
+.banner
+{
+    position:relative;
+    min-height:100vh;
+    background:url(IMG_20200828_195956.jpg);
+    background-size:cover;
+    background-position:right;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.banner h2
+{
+    font-size:3em;
+    color:#fff;
+    font-weight:500;
+    line-height:1.5em;
+}
+.banner h2 span
+{
+    font-size:1.5em;
+    font-weight:700;
+}
+.banner h3
+{
+    font-size:1.5em;
+    color:#fff;
+    font-weight:500;
+}
+header
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header .logo
+{
+    color:#fff;
+    font-size:24px;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-weight:700;
+    letter-spacing:2px;
+}
+header ul
+{
+    position:relative;
+    display:flex;
+}
+header ul li
+{
+    position:relative;
+    list-style:none;
+
+}
+header ul li a
+{
+    position:relative;
+    display:inline-block;
+    margin: 15px;
+    color:#fff;
+    text-decoration:none;
+}
+.heading
+{
+    width:100%;
+    text-align:center;
+    margin-bottom:30px;
+    color:#111;
+}
+.content
+{
+    display:flex;
+    text-align:left;
+    
+}
+
+.skills
+{
+    background:#111;
+}
+
+.center
+{
+    width:60%;
+    text-align:center;
+    margin-bottom:30px;  
+    padding:20px;
+    box-sizing:border-box;
+}
+.skillBx
+{
+    box-sizing:border-box;
+    width: 100%;
+    margin: 20px 0;
+
+}
+.skillBx p
+{
+    color:#2196f3;
+    text-transform: uppercase;
+    padding: 0;
+    font-weight:bold;
+    letter-spacing:1px; 
+}
+.skillBx p:nth-child(2)
+{
+    float: right;
+    position:relative;
+    top:-25px;
+}
+
+.skill
+{
+    background:#262626;
+    padding:4px;
+    box-sizing:border-box;
+    border:1px solid #0fffb7;
+    border-radius: 2px; 
+}
+
+.skill_level
+{
+    background: #0fffb7;
+    width: 100%;
+    height:10px;
+}
+
+.contact
+{
+background: #111;
+}
+.formBx
+{
+    min-width:60%;
+}
+.formBx form
+{
+    display:flex;
+    flex-direction:column;
+}
+.formBx form h3,
+.contactInfo h3
+{
+    color:#fff;
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:10px;
+}
+.formBx form input,
+.formBx form textarea
+{
+    margin-bottom:20px;
+    padding:15px;
+    font-size:16px;
+    border:none;
+    outline:none;
+    background:#222;
+    color:#fff;
+    resize:none;
+}
+.formBx
+{
+    min-height: 200px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder
+{
+    color:#999;
+}
+.formBx form input[type="Submit"]
+{
+    max-width:100px;
+    background:#2196f3;
+    cursor:pointer;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.contactInfo
+{
+    min-width:40%;
+}
+.contactInfoBx
+{
+    position:relative;
+}
+.contactInfoBx .box
+{
+    position:relative;
+    padding:20px 0;
+    display:flex; 
+}
+.contactInfoBx .box .icon
+{
+    min-width: 40px;
+    padding-top: 4px;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+.contactInfoBx .box .text
+{
+    display:flex;
+    margin-left:20px;
+    font-size:16px;
+    color:#fff;
+    flex-direction:column;
+    font-weight:300;
+}
+
+
+
